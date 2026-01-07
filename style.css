@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    color: black;
+    padding: 60px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 100px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+header button{
+    background-color: inherit;
+    border: 1px solid black;
+    color: black;
+    width: 250px;
+    height: 50px;
+}
+header img{
+    display: none;
+}
+.sec11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2D2641;
+    padding: 40px; 
+    height: 600px;
+}
+.sec_img img{
+    width: 540px;
+  
+    margin-top: 300px;
+}
+.sec11 hr{
+    width: 150px;
+}
+.sec_txt{
+    color: white;
+    gap: 110xp;
+}
+ .sec11 h1{
+    font-family: DM Serif Display;
+font-weight: 400;
+font-size: 72px;
+line-height: 64px;
+letter-spacing: -1px;
+
+ }
+
+.sec11 button{
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    width: 250px;
+    height: 50px;
+}
+.sec22{
+    
+    margin-top: 200px;
+    padding: 40px;
+}
+.sec22 h1{
+    font-size: 60px;
+    padding: 60px;
+}
+.sec22 hr{
+    width: 150px;
+    margin-left: 70px;
+}
+.sec22 p{
+    color: #837D88;
+}
+.cards_box{
+    justify-content: space-around;
+    display: flex;
+    align-items: center ;
+   
+}
+.sec33{
+    background-color: #2D2641;
+    width: 90%;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 100px;
+    
+}
+.txts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+.sec33 h1{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.78px;
+    color: white;
+    
+}
+.sec33 button{
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    width: 250px;
+    height: 50px;
+}
+.footer11{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 90px;
+}
+.footer22{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 23px;
+    font-weight: 700;width:
+}
+.icons{
+    width: 150px;
+    height: 20px;
+}
+
+@media(max-width: 650px){
+    nav {
+        display: none;
+    }
+    header img{
+        display: block;
+    }
+    header{
+        gap: 110px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
